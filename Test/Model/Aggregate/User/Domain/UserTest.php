@@ -2,7 +2,9 @@
 
 use PHPUnit\Framework\TestCase;
 
-class UserTest
+namespace Model\Aggregate\User\Domain;
+
+class UserTest extends TestCase
 {
     public function testTrueIsFalse()
     {
