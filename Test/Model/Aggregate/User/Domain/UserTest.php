@@ -1,8 +1,8 @@
 <?php
 
-use PHPUnit\Framework\TestCase;
-
 namespace Model\Aggregate\User\Domain;
+
+use PHPUnit\Framework\TestCase;
 
 class UserTest extends TestCase
 {
